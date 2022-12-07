@@ -1,4 +1,3 @@
-
 nav {
   border: 2px black solid;
   background-color: #444;
@@ -19,8 +18,48 @@ main>img {
 section {
   width: 80%;
   margin: 0 auto;
-  border: 2px pink solid;
   display: flex;
   justify-content: center;
   justify-content: space-between;
+}
+
+section>img {
+  width: 30%;
+}
+
+article {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+article>div {
+  width: 50%;
+  font-size: 1.6rem;
+  margin: 0 20px 0 0;
+}
+
+article>div>img {
+  width: 100%;
+}
+
+button {
+  background-color: #222;
+  color: #ddd;
+  font-size: 1.2rem;
+  padding: 3px 10px;
+}
+
+button:hover {
+  background-color: teal;
+  color: goldenrod;
+  transition: .375s;
+  font-size: 1.4rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #444;
+  height: 80px;
 }
