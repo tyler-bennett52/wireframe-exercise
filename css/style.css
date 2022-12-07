@@ -63,3 +63,10 @@ footer {
   background-color: #444;
   height: 80px;
 }
+
+p {
+  max-height: 450px;
+  overflow-y: scroll;
+  scrollbar-color: black #888;
+  scrollbar-width: thick;
+}
