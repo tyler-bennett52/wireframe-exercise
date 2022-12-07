@@ -1,0 +1,26 @@
+
+nav {
+  border: 2px black solid;
+  background-color: #444;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+}
+
+main>img {
+  width: 80%;
+  margin: 30px auto;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px pink solid;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
